@@ -23,6 +23,6 @@ $ pkg-config --modversion opencv<br />
 
 **CREATE a Folder named *'Frames'* in your *'Downloads'* folder to retrieve all the saved frames or alter the path as per preference.**
 
-You can also take the following as an input :grin: :stuck_out_tongue:
+You can also take the following as input :grin: :stuck_out_tongue:
 
 ![Alt Text](https://tenor.com/view/punch-face-gif-5611385.gif)
