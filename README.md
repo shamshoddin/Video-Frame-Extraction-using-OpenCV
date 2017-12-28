@@ -4,22 +4,22 @@ Commands For installing OpenCV
 
 dependencies 
 
-$ sudo apt-get install build-essential
-$ sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
-$ sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+$ sudo apt-get install build-essential <br />
+$ sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev <br />
+$ sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev <br />
 
 changing the directory and downloading opencv
 
-$ cd /usr/src
-$ sudo git clone https://github.com/opencv/opencv.git
-$ cd ~/opencv
-$ sudo mkdir release
-$ cd release
-$ sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
-$ sudo make -j4
-$ sudo make install
+$ cd /usr/src <br />
+$ sudo git clone https://github.com/opencv/opencv.git <br />
+$ cd ~/opencv <br />
+$ sudo mkdir release<br />
+$ cd release<br />
+$ sudo cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local..  <br />
+$ sudo make -j4<br />
+$ sudo make install<br />
 
-$ pkg-config --modversion opencv
+$ pkg-config --modversion opencv<br />
 
 You can also take the following as an input :grin: :stuck_out_tongue:
 
